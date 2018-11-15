@@ -4,10 +4,10 @@ const router = express.Router();
 
 // connect to DB
 var con = mysql.createConnection({
-  host: "45.36.146.185",
-  user: "student",
-  password: "secret",
-  database: "stocks"
+  host: "host",
+  user: "user",
+  password: "password",
+  database: "database"
 });
 
 con.connect(err => {
